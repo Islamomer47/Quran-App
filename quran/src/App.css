@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding-top: 70px; /* لموازنة الشريط العلوي */
+  padding-bottom: 50px; /* لموازنة الشريط السفلي */
+  background-color: #f0f8ff; /* لون خلفية فاتح */
+  min-height: 100vh;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+audio {
+  margin-top: 10px;
+}
