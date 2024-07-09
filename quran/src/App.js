@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+// import hooks
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import SurahCard from "./SurahCard";
